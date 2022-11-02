@@ -9,7 +9,7 @@ namespace problem5
                 pay=hours*80;
             }
             else{
-                pay=((hours-56))*120+(56*80);
+                pay=((hours-56)*120)+(56*80);
             }
             return pay;
         }
